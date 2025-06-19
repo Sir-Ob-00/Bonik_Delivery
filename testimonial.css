@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Pragmatica';
+    src: url(fonts/Pragmatica.ttf) format('truetype');
+}
+
+body{
+    font-family: 'Pragmatica';
+    background-color: #F5F5F5;
+}
+
+section{
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.Testimonial-section{
+    padding: 0 40px;
+}
+.testimonial-header{
+    text-align: center;
+}
+
+.testimonial-header h1{
+    font-size: 40px;
+}
+.testimonial-header p{
+    font-size: 1rem;
+}
+.testimonial-card{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    row-gap: 30px;
+}
+
+.card-details .quote{
+    font-size: 6rem;
+    color: #DD6F77;
+}
+
+.card-details .stars{
+    color: #E24329;
+    font-size: 2rem;
+}
+
+.author-details .author{
+    color: #E24329;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.navigation-btn{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+.nav-btn{
+    color: #fff;
+    border-radius: 5px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+.nav-btn.prev{
+    background-color: #828282;
+}
+
+.nav-btn.next{
+    background-color: #E24329;
+}

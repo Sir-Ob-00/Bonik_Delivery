@@ -1,0 +1,75 @@
+.PartnerUp-card {
+        background-color: #fcecea;
+        border-radius: 20px;
+        padding: 50px 20px;
+        margin: 50px auto;
+        max-width: 800px;
+        text-align: center;
+        position: relative;
+    }
+
+    .PartnerUp-card h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #2d2d2d;
+        margin-bottom: 10px;
+    }
+
+    .PartnerUp-card p {
+        font-size: 0.95rem;
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+    .PartnerUp-card button {
+        padding: 12px 30px;
+        background-color: #fff;
+        color: #E24329;
+        font-weight: bold;
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .PartnerUp-card button:hover {
+        background: #E24329;
+        color: #fff;
+    }
+
+
+    .PartnerUp-card::before,
+    .PartnerUp-card::after {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #ffbaba;
+        border-radius: 50%;
+    }
+
+    .PartnerUp-card::before {
+        top: 10px;
+        left: 20px;
+    }
+
+    .PartnerUp-card::after {
+        bottom: 15px;
+        right: 30px;
+    }
+
+    @media (max-width: 600px) {
+        .PartnerUp-card h2 {
+            font-size: 1.5rem;
+        }
+
+        .PartnerUp-card p {
+            font-size: 0.9rem;
+        }
+
+        .PartnerUp-card .btn {
+            padding: 10px 25px;
+            font-size: 0.95rem;
+        }
+    }
