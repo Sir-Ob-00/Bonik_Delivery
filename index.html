@@ -13,17 +13,9 @@
     <link href="footer.css" rel="stylesheet">
 </head>
 <body>
-    <section class="nav-bar">
-        <nav>
-            <img src="images/Frame.png" alt="logo">
-            <div>
-
-            </div>
-        </nav>
-    </section>
 
     <!-- Testimonial section -->
-    <section class="">
+    <section aria-labelledby="testimonial-heading">
         <div class="Testimonial-section">
             <div class="testimonial-header">
                 <h1>Hear Something From Our Client</h1>
@@ -49,8 +41,8 @@
                         <p class="title">Managing Director</p>
                     </div>
                     <div class="navigation-btn">
-                        <button class="nav-btn prev">←</button>
-                        <button class="nav-btn next">→</button>
+                        <button class="nav-btn prev" aria-label="Previous testimonial">←</button>
+                        <button class="nav-btn next" aria-label="Next testimonial">→</button>
                     </div>
                 </div>
             </div>
@@ -62,7 +54,7 @@
         <div class="PartnerUp-card">
             <h2>Partner up with Bonik Delivery Today</h2>
             <p>Signing up takes only 2 minutes</p>
-            <button>Sign Up Now</button>
+            <button aria-label="Sign up now for Bonik Delivery">Sign Up Now</button>
         </div>
         
     </section>
@@ -74,7 +66,7 @@
             <h2>Company News Our Latest Article<br>& Tips for You</h2>
 
             <div class="cards-wrapper">
-                <button class="nav-arrow left">&#8592;</button>
+                <button class="nav-arrow left" aria-label="Scroll to previous news article">&#8592;</button>
 
                 <!-- Card 1 -->
                 <div class="card">
@@ -130,7 +122,7 @@
                     </div>
                 </div>
 
-                <button class="nav-arrow right">&#8594;</button>
+                <button class="nav-arrow right" aria-label="Scroll to next news article">&#8594;</button>
             </div>
 
             <div class="dots">
@@ -162,9 +154,9 @@
                         <p>Get Important Notices</p>
                     </div>
                 </div>
-                <div>
-                    <img src="images\Group 185.png" alt="appstore-image">
-                    <img src="images\Group 184.png" alt="googleplay-image">
+                <div class="app-buttons">
+                    <a href="https://www.apple.com/app-store/" target="_blank"><img src="images\Group 185.png" alt="appstore-image"></a>
+                    <a href="https://play.google.com" target="_blank"><img src="images\Group 184.png" alt="googleplay-image"></a>
                 </div>
             </div>
             <div class="get-more-image">
@@ -184,11 +176,11 @@
                         <p>Mohammadpur Dhaka, Bangladesh</p>
                     </div>
                     <div class="social-media">
-                        <a href="#" class="icon facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="icon twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="icon pinterest"><i class="fab fa-pinterest-p"></i></a>
-                        <a href="#" class="icon instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="icon facebook" aria-label="Visit us on Facebook" role="link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="icon linkedin" aria-label="Visit us on linkedin" role="link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="icon twitter" aria-label="Visit us on twitter" role="link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="icon pinterest" aria-label="Visit us on pinterest" role="link"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="icon instagram" aria-label="Visit us on instagram" role="link"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">

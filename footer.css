@@ -1,8 +1,11 @@
+footer{
+    background-color: #feece8;
+    margin-top: 70px;
+}
 .footer-content{
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: #f8f8f8;
 }
 .footer-logo{
     display: flex;
@@ -25,7 +28,6 @@
 .social-media {
     display: flex;
     gap: 15px;
-    justify-content: center;
     margin-top: 20px;
 }
 
@@ -50,8 +52,33 @@
 
 .footer-bottom{
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     background-color: #E24329;
     font-size: 0.9rem;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-logo {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-logo img {
+        width: 120px;
+    }
+    
+    .footer-links {
+        text-align: center;
+    }
+    
+    .social-media {
+        justify-content: center;
+    }
 }

@@ -59,7 +59,7 @@
         right: 30px;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         .PartnerUp-card h2 {
             font-size: 1.5rem;
         }
